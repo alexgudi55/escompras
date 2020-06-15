@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"> 
+        <title> ESCOMpras </title>
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="header">
+                <div class="marca">
+                    <button onclick="openMenu()">
+                        &#9776;
+                    </button>
+                    <a href="index.html">ESCOMpras</a>
+                </div>
+                <div class="header-links">
+                    <a href="cart.html">Cart </a>
+                    <a href="signin">Sign in</a>
+                </div>
+            </header> 
+            <aside class="sidebar">
+                <h3> Opciones de búsqueda</h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+                <ul>
+                    <li>
+                        <a href="index.html">Para ti</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Tendencias</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Categorías</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Historial</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Vender</a>
+                    </li>
+                </ul>
+            </aside> 
+            <main class="main">
+                <div class="content">
+                    <ul class="products">
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class = "product-image" src="images/pay.jpg" alt="product">
+                                <div class="product-name">
+                                    <a href="product.html">Pay de limón.</a> 
+                                </div>
+                                <div class="product-seller"> Nadia </div>
+                                <div class="product-price">$15 </div>
+                                <div class="product-rating">5 stars (23 Reviews) </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+            <footer class="footer">All rights reserved.</footer>
+        </div>
+        <script>
+            function openMenu(){
+                document.querySelector(".sidebar").classList.add("open");
+            }
+            function closeMenu(){
+                document.querySelector(".sidebar").classList.remove("open");
+            }
+        </script>
+    </body>
+</html>
